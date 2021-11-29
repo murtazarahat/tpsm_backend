@@ -13,10 +13,14 @@ export class CountryController extends Controller {
   async getCountryList() {
     const response = await new CountryRepository().getCountryList()
     console.log(response)
-    let data: {[k:string]: any} = {}
+    let data: { [k: string]: any } = {}
     data.countries = []
-    for(let i=0;i<response.length;i++){
-        data.countries.push({ id: response[i].id, countryName: response[i].countryName})
+    for (let i = 0; i < response.length; i++) {
+      data.countries.push({
+        _id: response[i]._id,
+        id: response[i].id,
+        countryName: response[i].countryName,
+      })
     }
     return data
   }
