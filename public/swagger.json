@@ -1,0 +1,64 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {},
+		"securitySchemes": {
+			"bearerAuth": {
+				"type": "http",
+				"scheme": "bearer",
+				"name": "authorization",
+				"in": "header",
+				"bearerFormat": "JWT"
+			}
+		}
+	},
+	"info": {
+		"title": "tpsm-backend",
+		"version": "0.0.0",
+		"description": "PC",
+		"license": {
+			"name": "MIT"
+		},
+		"contact": {
+			"name": "Syed Rahat Murtaza",
+			"email": "rahat_murtaza@outlook.com",
+			"url": "https://github.com/rahatmurtaza"
+		}
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/countries/getList": {
+			"get": {
+				"operationId": "GetCountryList",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"properties": {},
+									"additionalProperties": {},
+									"type": "object"
+								}
+							}
+						}
+					}
+				},
+				"tags": [
+					"Country API"
+				],
+				"security": [],
+				"parameters": []
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}

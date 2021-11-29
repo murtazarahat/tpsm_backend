@@ -1,0 +1,113 @@
+{
+    "_id": {
+        "$oid": "5eda25f170fe497aac1e9899"
+    },
+    "deleted": false,
+    "fundVisaChecklist": [],
+    "flagImage": [{
+        "_id": {
+            "$oid": "5eda25f470fe497aac1e9d51"
+        },
+        "name": "1413099269India.jpg",
+        "path": "./public/media/1413099269India.jpg",
+        "url": "/media/1413099269India.jpg",
+        "uid": "dc383c50-a71b-11ea-b201-bdbe9bf0db13"
+    }],
+    "mapImage": null,
+    "mediaFiles": [],
+    "id": 3,
+    "countryCode": "IND",
+    "countryName": "India",
+    "currencyName": "INR",
+    "currencyRate": 1,
+    "uid": 18,
+    "time": {
+        "$date": "2014-08-15T10:17:03.000Z"
+    },
+    "complete": 0,
+    "__v": 1,
+    "enrollmentBasic": "",
+    "enrollmentProcedure": "",
+    "enrollmentRemarks": "",
+    "airTicketPrice": 0,
+    "airTicketType": "",
+    "child1PermitFee": 0,
+    "child1Vfs": 0,
+    "child2PermitFee": 0,
+    "child2Vfs": 0,
+    "child3PermitFee": 0,
+    "child3Vfs": 0,
+    "child4PermitFee": 0,
+    "childrenAboveAge": 0,
+    "familyEstimatedCost": 0,
+    "livingCostChild1": 0,
+    "livingCostChild2": 0,
+    "livingCostMainApplicant": 0,
+    "livingCostSpouse": 0,
+    "mainApplicantPermitFee": 0,
+    "mainApplicantVfs": 0,
+    "singleEstimatedCost": 0,
+    "spousePermitFee": 0,
+    "spouseVfs": 0,
+    "stageApplication": 0,
+    "stageVisaApproval": 0,
+    "stageVisaFilling": 0,
+    "travelCostChild": 0,
+    "travelCostMainApplicant": 0,
+    "travelCostSpouse": 0,
+    "visaFeeChild1": 0,
+    "visaFeeChild3": 0,
+    "visaFeeChild4": 0,
+    "visaFeeMainApplicant": 0,
+    "visaFeeSpouse": 0,
+    "fundAcceptable": "",
+    "fundEducation": "",
+    "fundRefundable": "",
+    "fundSponsors": "",
+    "AHM": "",
+    "NIB": "",
+    "allainze": "",
+    "buppa": "",
+    "dualOSHC": 0,
+    "embassyAddress": "",
+    "embassyContacts": "",
+    "embassyEmail": "",
+    "familyOSHC": 0,
+    "interview": "",
+    "interviewType": null,
+    "mainCities": "",
+    "mainStates": "",
+    "mediBank": "",
+    "singleOSHC": 0,
+    "tutionFeeReq": "",
+    "vfsttsAddress": " ",
+    "vfsttsContacts": "",
+    "vfsttsEmail": "",
+    "videoUrl": "",
+    "visaCategory": null,
+    "visaFillingBy": "",
+    "visaProcessingTime": "",
+    "createdByUser": {
+        "_id": {
+            "$oid": "5eda25f570fe497aac1e9e76"
+        },
+        "name": "Naresh Bharti (Admin)",
+        "userId": "5eda25f070fe497aac1e97b6",
+        "time": {
+            "$date": "2014-08-15T10:17:03.000Z"
+        }
+    },
+    "updatedByUser": {
+        "_id": {
+            "$oid": "5eda25f570fe497aac1e9e77"
+        },
+        "name": "Naresh Bharti (Admin)",
+        "userId": "5eda25f070fe497aac1e97b6",
+        "time": {
+            "$date": "2014-08-15T10:17:03.000Z"
+        }
+    },
+    "totalConsultancyFee": 0,
+    "totalPermitFee": 0,
+    "totalVfsFee": 0
+}
