@@ -7,7 +7,7 @@ export class MongoDb {
   async connect(): Promise<boolean> {
     let dbStatus: boolean = false
 
-    await connect(`mongodb://localhost:27017/tpsm`)
+    await connect(`mongodb+srv://rahat:rahat@cluster0.g3whs.mongodb.net/tpsm?retryWrites=true&w=majority`)
       .then(function () {
         console.log('Database Connection Established')
         dbStatus = true
